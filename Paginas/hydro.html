@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour por Teyvat</title>
+    <link rel="icon" href="Multimedia/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/estilos.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="logoGrid row">
+            <img src="../Multimedia/logo.png" alt="" class="col-6">
+        </div>
+        <header class="menuGrid row">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light col-12">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegador">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse row" id="navegador">
+                    <ul class="navbar-nav menu col-12">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Paginas/armas.html">Armas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Paginas/artefactos.html">Artefactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Paginas/personajes.html">Personajes</a>
+                            <ul class="submenu">
+                                <li><a href="../Paginas/hydro.html">Hydro</a></li>
+                                <li><a href="../Paginas/cryo.html">Cryo</a></li>
+                                <li><a href="../Paginas/pyro.html">Pyro</a></li>
+                                <li><a href="../Paginas/anemo.html">Anemo</a></li>
+                                <li><a href="../Paginas/geo.html">Geo</a></li>
+                                <li><a href="../Paginas/electro.html">Electro</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="mainGrid">
+            <div id="contenedor" class="">
+                <div class="elementos">
+                    <div class="elemento hydro">
+                        <img src="../Multimedia/elementos/hydro.png" alt="">
+                        <h3>Hydro</h3>
+                    </div>
+                </div>
+                <div class="personajes">
+                    <a href="#tartaglia">
+                        <div class="personaje cincoEstrellas">
+                            <img src="../Multimedia/personajes/hydro/tartaglia.png" alt="Tartaglia">
+                            <div class="personajeNombre">
+                                <h4>Tartaglia</h4>
+                            </div>
+                        </div>
+                        <div class="expandDescripcion">
+                            <h3>Descripción</h3>
+                            <hr class="subrayado">
+                            <p>Tartaglia, también conocido como "Nobile", y cuyo nombre real es "Ajax" es un personaje
+                                jugable en Genshin Impact.
+
+                                Es el undécimo de los Once Heraldos de los Fatui. Siguiendo el peligro donde quiera que
+                                vaya, Tartaglia siempre está ansioso por un desafío, lo que lo hace extremadamente
+                                peligroso a pesar de ser el miembro más joven.
+
+                                Hizo su primera aparición como PNJ en la Versión 1.0 y llegó por primera vez en la
+                                Versión 1.1 en el gachapón "El adiós de Snezhnaya".</p>
+                            <h3>Habilidades</h3>
+                            <hr class="subrayado">
+                            <div class="habilidades">
+                                <div class="habilidad">
+                                    <div class="habilidadCabecera">
+                                        <div></div>
+                                        <h3>Torrente Cortante</h3>
+                                    </div>
+                                    <p>Ataque Normal: Realiza hasta 6 disparos consecutivos con arco.
+
+                                        Ataque Cargado: Realiza un ataque más preciso, infligiendo más daño con Disparo
+                                        Preciso. Mientras se apunta, el poder de Hydro se acumulará en la punta de la
+                                        flecha. Una flecha totalmente cargada con un torrente infligirá Daño Hydro al
+                                        golpear, y aplicará el estado de Obstrucción del flujo.
+
+                                        Obstrucción del flujo Inflige Daño Hydro en el AdE cuando Tartaglia ataca a un
+                                        objetivo afectado por Obstrucción del flujo. El daño infligido por este estado
+                                        se considera daño de Ataque Normal.
+
+                                        Obstrucción del flujo Destello: cuando se dispara un Disparo Preciso totalmente
+                                        cargado contra un enemigo bajo los efectos de Obstrucción del flujo, inflige
+                                        daño continuo en el AdE. La Obstrucción del flujo: Destello solo podrá activarse
+                                        una vez cada 0.7 s.
+                                        Obstrucción del flujo: Explosión: al derrotar a un enemigo bajo los efectos de
+                                        Obstrucción del flujo, se provocará una explosión Hydro que aplicará dicho
+                                        efecto sobre los enemigos cercanos.
+
+                                        Ataque descendiente: Desciende rápidamente desde el aire y dispara una lluvia de
+                                        flechas, infligiendo Daño en el AdE al impactar contra el suelo. No es posible
+                                        activar el Ataque descendiente cuando Tartaglia se encuentra en posición de
+                                        combate cuerpo a cuerpo de Legado del mal: Olas furiosas.</p>
+                                </div>
+                                <div class="habilidad"></div>
+                                <div class="habilidad"></div>
+
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personaje cincoEstrellas">
+                            <img src="../Multimedia/personajes/hydro/mona.png" alt="Mona">
+                            <div class="personajeNombre">
+                                <h4>Mona</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personaje cincoEstrellas">
+                            <img src="../Multimedia/personajes/hydro/sangonomiya-kokomi.png" alt="Kokomi">
+                            <div class="personajeNombre">
+                                <h4>Sangonomiya Kokomi</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personaje cuatroEstrellas">
+                            <img src="../Multimedia/personajes/hydro/barbara.png" alt="Barbara">
+                            <div class="personajeNombre">
+                                <h4>Barbara</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="personaje cuatroEstrellas">
+                            <img src="../Multimedia/personajes/hydro/xingqiu.png" alt="Xingqiu">
+                            <div class="personajeNombre">
+                                <h4>Xingqiu</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <hr class="separador">
+                <div class="personajesDescripcion">
+                    <div id="tartaglia" class="personajeDescripcion">
+                        <div class="fullImgPj fondoHydro">
+                            <img src="../Multimedia/personajes/full/tartaglia.png" alt="">
+                            <div class="info">
+                                <div class="personajeNombre">
+                                    <h4>Tartaglia</h4>
+                                    <ul>
+                                        <li>⭐⭐⭐⭐⭐</li>
+                                        <li>Elemento: Hydro</li>
+                                        <li>Región: Snezhnaya</li>
+                                        <li>Arma: arco</li>
+                                        <li>Rol: DPS</li>
+                                        <li>Género: masculino</li>
+                                        <li>Cumpleaños: 20 Julio</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="personajeDetalle">
+                            <h3>Descripción</h3>
+                            <hr class="subrayado">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil odio placeat, minus culpa
+                                minima id porro, doloremque a ut, quas vel veritatis assumenda commodi. Omnis, itaque?
+                                Consequatur veritatis nam doloribus.</p>
+                            <h3>Habilidades</h3>
+                            <hr class="subrayado">
+                            <div class="habilidades">
+                                <div class="habilidad">
+                                    <div class="habilidadCabecera">
+                                        <div></div>
+                                        <h3>Torrente Cortante</h3>
+                                    </div>
+                                    <p>Ataque Normal: Realiza hasta 6 disparos consecutivos con arco.
+                                    </p>
+
+                                    <p>Ataque Cargado: Realiza un ataque más preciso, infligiendo más daño con Disparo
+                                        Preciso. Mientras se apunta, el poder de Hydro se acumulará en la punta de la
+                                        flecha. Una flecha totalmente cargada con un torrente infligirá Daño Hydro al
+                                        golpear, y aplicará el estado de Obstrucción del flujo.
+                                    </p>
+                                    <p> Obstrucción del flujo Inflige Daño Hydro en el AdE cuando Tartaglia ataca a un
+                                        objetivo afectado por Obstrucción del flujo. El daño infligido por este estado
+                                        se considera daño de Ataque Normal.
+                                    </p>
+                                    <p> Obstrucción del flujo Destello: cuando se dispara un Disparo Preciso totalmente
+                                        cargado contra un enemigo bajo los efectos de Obstrucción del flujo, inflige
+                                        daño continuo en el AdE. La Obstrucción del flujo: Destello solo podrá activarse
+                                        una vez cada 0.7 s.
+                                    </p>
+                                    <p>Obstrucción del flujo: Explosión: al derrotar a un enemigo bajo los efectos de
+                                        Obstrucción del flujo, se provocará una explosión Hydro que aplicará dicho
+                                        efecto sobre los enemigos cercanos.
+                                    </p>
+                                    <p>Ataque descendiente: Desciende rápidamente desde el aire y dispara una lluvia de
+                                        flechas, infligiendo Daño en el AdE al impactar contra el suelo. No es posible
+                                        activar el Ataque descendiente cuando Tartaglia se encuentra en posición de
+                                        combate cuerpo a cuerpo de Legado del mal: Olas furiosas.</p>
+                                    </p>
+                                </div>
+                                <div class="habilidad"></div>
+                                <div class="habilidad"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+        <footer class="footerGrid">
+            <p class="footer_title">SIGUENOS</p>
+            <div class="redes">
+                <a href=""><img src="../multimedia/Instagram-icon.png" alt="" /></a>
+                <a href=""><img src="../multimedia/Twitter-icon.png" alt="" /></a>
+                <a href=""><img src="../multimedia/tumblr-icon.png" alt="" /></a>
+            </div>
+            <p class="footer_copy">Copyright 1997-2022 - Prohibida la reproducción total o parcial de estos contenidos
+                sin el permiso expreso de los autores.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
