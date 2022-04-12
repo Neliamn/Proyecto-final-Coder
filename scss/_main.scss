@@ -1,0 +1,18 @@
+#contenedor {
+    min-height: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    p {
+        padding: 30px;
+        line-height: 25px;
+    }
+}
+
+body {
+    background-image: url('../Multimedia/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+}
