@@ -18,7 +18,7 @@
   .contenedorGrid .menuGrid {
     grid-area: menuGrid; }
     .contenedorGrid .menuGrid nav {
-      background-color: transparent !important; }
+      background-color: transparent; }
       .contenedorGrid .menuGrid nav button {
         background-color: white; }
   .contenedorGrid .mainGrid {
@@ -94,6 +94,228 @@ body {
   background-attachment: fixed;
   overflow-x: hidden; }
 
+.table {
+  background-color: aliceblue;
+  margin: auto; }
+  .table td {
+    border: 1px solid;
+    padding: 3px; }
+  .table th {
+    padding: 10px;
+    background-color: #5a0fa0;
+    color: #ffffff; }
+
+#contenedor h3 {
+  padding: 10px; }
+
+#contenedor ul {
+  margin-bottom: 15px; }
+  #contenedor ul li {
+    margin-left: 25px;
+    list-style: none; }
+    #contenedor ul li a {
+      text-decoration: none; }
+
+.contenedorArmas {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left; }
+  .contenedorArmas img {
+    width: 60%; }
+
+.separador {
+  width: 90%;
+  height: 2px;
+  size: 3;
+  background-color: #4296e4;
+  margin: 5%; }
+
+.subrayado {
+  width: 90%;
+  height: 2px;
+  size: 3;
+  background-color: #4296e4;
+  margin: 0% 5%; }
+
+.tituloarmas h3 {
+  font-size: 2em;
+  text-align: center; }
+
+.arma5 {
+  background-image: url("../Multimedia/fondoArma5.png");
+  background-size: cover;
+  width: 25%; }
+
+.armaTarjeta {
+  margin: 15px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #e0d1a8;
+  display: flex;
+  flex-direction: row;
+  width: 425px; }
+
+.tarjeta {
+  display: flex;
+  flex-direction: column; }
+  .tarjeta h4 {
+    margin: 5px; }
+
+.estiloarmas {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-flow: row wrap; }
+
+.personajes a:hover {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  color: black; }
+
+.personajes a:hover .personaje img {
+  margin-top: 25px; }
+
+/*personajes*/
+.elementos {
+  display: flex;
+  flex-direction: column; }
+
+.elemento {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px; }
+
+.elemento img {
+  height: 60px;
+  width: 60px;
+  align-self: center;
+  margin-left: 15px; }
+
+.elemento h3 {
+  margin-left: 25px;
+  font-size: 3em; }
+
+.hydro h3 {
+  color: #03e5fd; }
+
+.hydro {
+  background-color: #05e4fd1f; }
+
+.cryo {
+  background-color: #9eeff321; }
+
+.cryo h3 {
+  color: #9eeff3; }
+
+.pyro {
+  background-color: #fba36963; }
+
+.pyro h3 {
+  color: #f53838; }
+
+.anemo {
+  background-color: #a7f4cd63; }
+
+.anemo h3 {
+  color: #59deb4; }
+
+.geo {
+  background-color: #f6da6266; }
+
+.geo h3 {
+  color: #f6b631; }
+
+.electro {
+  background-color: #dfbbfd5c; }
+
+.electro h3 {
+  color: #d798fc; }
+
+.elementos a {
+  text-decoration: none; }
+
+/* Hydro */
+.personajes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+.personajes a {
+  text-decoration: none; }
+
+.personaje {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  margin: 5px;
+  height: 325px; }
+
+.personajeNombre h4 {
+  text-align: center;
+  padding: 5px;
+  color: #ffffff; }
+
+.cincoEstrellas {
+  background-color: #d0a028c2;
+  border: 1px solid #d0a028c2;
+  border-radius: 10px; }
+
+.cuatroEstrellas {
+  background-color: #7128d0bd;
+  border: 1px solid #7128d0bd;
+  border-radius: 10px; }
+
+.personajesDescripcion {
+  display: flex;
+  flex-direction: column; }
+
+.personajeDescripcion {
+  display: flex;
+  flex-direction: row; }
+
+.fullImgPj {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 10px;
+  border-radius: 15px; }
+
+.fondoHydro {
+  background-color: #03e5fd; }
+
+.personajeDetalle {
+  width: 75%; }
+
+.personajeDetalle h3 {
+  text-align: center; }
+
+.habilidades {
+  display: flex;
+  flex-direction: column; }
+
+.habilidad {
+  display: flex;
+  flex-direction: column; }
+
+.habilidadCabecera {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px; }
+
+.habilidadCabecera div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #d798fc;
+  padding: 5px;
+  background-image: url("../Multimedia/personajes/hydro/habilidades/tartaglia_s1.png");
+  background-size: 82%;
+  background-position-x: 4px;
+  background-position-y: 6px;
+  background-repeat: no-repeat; }
+
 footer {
   bottom: 0px;
   background-color: #03596f;
@@ -122,3 +344,163 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center; }
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .contenedorGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.1fr 3.4fr 0.3fr;
+    gap: 20px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "logoGrid" "menuGrid" "mainGrid" "footerGrid";
+    align-content: space-between; }
+  header {
+    position: relative; }
+  .menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 25px;
+    border: 1px solid;
+    background-color: #03596f; }
+    .menu liheader {
+      position: relative; }
+  .menu a {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff; }
+  .menuGrid nav button {
+    display: none; }
+  .submenu {
+    display: none;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 20px;
+    /* 
+        .mainGrid {
+            display: flex;
+            flex-direction: column;
+        } */ }
+    .submenu li {
+      display: block; }
+      .submenu lihover ul {
+        display: block; }
+    .submenu .contenedorArmas {
+      display: flex;
+      flex-direction: column;
+      justify-content: left; }
+      .submenu .contenedorArmas img {
+        align-self: center; }
+    .submenu .intro {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .submenu .table {
+      background-color: aliceblue;
+      margin: auto;
+      font-size: 12px; }
+    .submenu .personajeDescripcion {
+      display: flex;
+      flex-direction: column; }
+    .submenu .fullImgPj {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      padding: 10px;
+      border-radius: 15px; }
+      .submenu .fullImgPj img {
+        width: 50%; }
+    .submenu .personajeDetalle {
+      width: 100%; } }
+
+@media only screen and (max-width: 576px) {
+  .submenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 20px; }
+  .mainGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  body {
+    background-image: url("../Multimedia/background.jpg"), url("../Multimedia/corazones.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../Multimedia/background_small.jpeg"), url("../Multimedia/corazones.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat, repeat;
+    background-size: 100%; }
+  .contenedorGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.1fr 3.4fr 0.3fr;
+    gap: 20px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "logoGrid" "menuGrid" "mainGrid" "footerGrid";
+    align-content: space-between; }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+    li .menuhover ul {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: center; }
+  .menuGrid nav button {
+    display: block;
+    background-color: #ffffff; }
+  header {
+    position: relative; }
+  #contenedor {
+    min-height: 100%;
+    padding: 20px;
+    margin: 5px 5px;
+    background-color: #ffffff;
+    border-radius: 4px; }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .intro img {
+      width: 50%;
+      padding: 20px; }
+  .contenedorArmas {
+    display: flex;
+    flex-direction: column;
+    justify-content: left; }
+  .armaTarjeta {
+    margin: 15px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #e0d1a8;
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+  .arma5 {
+    width: 100%; }
+  .table {
+    background-color: aliceblue;
+    margin: auto;
+    font-size: 8px; }
+  .personajeDescripcion {
+    display: flex;
+    flex-direction: column; }
+  .fullImgPj {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px; }
+    .fullImgPj img {
+      width: 50%; }
+  .personajeDetalle {
+    width: 100%; }
+  .personajeNombre ul li {
+    font-size: 10px; } }

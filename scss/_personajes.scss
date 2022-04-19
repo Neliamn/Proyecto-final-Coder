@@ -1,0 +1,157 @@
+
+
+.personajes a:hover{
+    display:flex;
+    flex-direction: row;
+    margin-top: 25px;
+    color: black;
+}
+
+.personajes a:hover .personaje img{
+    margin-top: 25px;
+}
+/*personajes*/
+.elementos {
+    display: flex;
+    flex-direction: column;
+}
+.elemento {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+.elemento img {
+    height: 60px;
+    width: 60px;
+    align-self: center;
+    margin-left: 15px;
+}
+.elemento h3 {
+    margin-left: 25px;
+    font-size: 3em;
+}
+.hydro h3 {
+    color: rgb(3,229,253);
+}
+.hydro {
+    background-color: #05e4fd1f;
+}
+.cryo {
+    background-color: #9eeff321;
+}
+.cryo h3 {
+    color: #9eeff3;
+}
+.pyro {
+    background-color: #fba36963;
+}
+.pyro h3 {
+    color: rgb(245,56,56);
+}
+.anemo {
+    background-color: #a7f4cd63;
+}
+.anemo h3 {
+    color: #59deb4;
+}
+.geo {
+    background-color: #f6da6266;
+}
+.geo h3 {
+    color: #f6b631;
+}
+.electro {
+    background-color: #dfbbfd5c;
+}
+.electro h3 {
+    color: #d798fc;
+}
+.elementos a {
+    text-decoration: none;
+}
+
+/* Hydro */
+
+.personajes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+.personajes a {
+    text-decoration: none;
+}
+.personaje {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 5px;
+    height: 325px;
+}
+.personajeNombre h4 {
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.cincoEstrellas {
+    background-color: #d0a028c2;
+    border: 1px solid #d0a028c2;
+    border-radius: 10px;
+}
+.cuatroEstrellas {
+    background-color: #7128d0bd;
+    border: 1px solid #7128d0bd;
+    border-radius: 10px;
+}
+.personajesDescripcion {
+    display: flex;
+    flex-direction: column;
+}
+.personajeDescripcion {
+    display: flex;
+    flex-direction: row;
+}
+.fullImgPj {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.fondoHydro {
+    background-color: rgb(3,229,253);
+}
+.personajeDetalle {
+    width: 75%;
+}
+.personajeDetalle h3 {
+    text-align: center;
+}
+.habilidades {
+    display: flex;
+    flex-direction: column;
+}
+.habilidad {
+    display: flex;
+    flex-direction: column;
+}
+.habilidadCabecera {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+.habilidadCabecera div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #d798fc;
+    padding: 5px;
+    background-image: url('../Multimedia/personajes/hydro/habilidades/tartaglia_s1.png');
+    background-size: 82%;
+    background-position-x: 4px;
+    background-position-y: 6px;
+    background-repeat: no-repeat;
+}
