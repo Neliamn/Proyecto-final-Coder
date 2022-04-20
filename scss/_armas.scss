@@ -19,8 +19,7 @@
 
 
 .contenedorArmas {
-    display: flex;
-    flex-direction: row-reverse;
+    @include flexBox(flex,row-reverse);
     justify-content: left;
 
     img {
@@ -60,18 +59,16 @@
 }
 
 .armaTarjeta {
+    @include flexBox(flex,row);
     margin: 15px 5px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: rgb(224, 209, 168);
-    display: flex;
-    flex-direction: row;
     width: 425px;
 }
 
 .tarjeta {
-    display: flex;
-    flex-direction: column;
+    @include flexBox(flex,column);
 
     h4 {
         margin: 5px;
@@ -79,8 +76,8 @@
 }
 
 .estiloarmas {
-    display: flex;
+    @include flexBox(flex,row);
     justify-content: center;
     align-content: flex-start;
-    flex-flow: row wrap;
+    flex-flow: wrap;
 }

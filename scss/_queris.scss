@@ -57,59 +57,53 @@
                 display: block;
             }
         }
-/* 
-        .mainGrid {
-            display: flex;
-            flex-direction: column;
-        } */
-
-        .contenedorArmas {
-            display: flex;
-            flex-direction: column;
-            justify-content: left;
-
-            img {
-                align-self: center;
-            }
-        }
-
-
-        .intro {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .table {
-            background-color: aliceblue;
-            margin: auto;
-            font-size: 12px;
-        }
-
-        .personajeDescripcion {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .fullImgPj {
-            display: flex;
-            flex-direction: row;
-            width: 90%;
-            padding: 10px;
-            border-radius: 15px;
-
-            img {
-                width: 50%;
-            }
-        }
-
-
-        .personajeDetalle {
-            width: 100%;
-        }
-
-
     }
+
+    .contenedorArmas {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+
+        img {
+            align-self: center;
+        }
+    }
+
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .table {
+        background-color: aliceblue;
+        margin: auto;
+        font-size: 12px;
+    }
+
+    .personajeDescripcion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fullImgPj {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        padding: 10px;
+        border-radius: 15px;
+
+        img {
+            width: 50%;
+        }
+    }
+
+
+    .personajeDetalle {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -204,7 +198,11 @@
     .contenedorArmas {
         display: flex;
         flex-direction: column;
-        justify-content: left;
+        justify-content: center;
+
+        img {
+            align-self: center;
+        }
     }
 
     .armaTarjeta {

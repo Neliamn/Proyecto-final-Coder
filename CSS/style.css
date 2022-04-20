@@ -33,6 +33,24 @@
   .footerGrid p {
     align-self: center; }
 
+.hydro {
+  color: #03e5fd; }
+
+.anemo {
+  color: #59deb4; }
+
+.cryo {
+  color: #9eeff3; }
+
+.electro {
+  color: #d798fc; }
+
+.geo {
+  color: #f6b631; }
+
+.pyro {
+  color: #f53838; }
+
 .intro {
   display: flex;
   flex-direction: row-reverse;
@@ -147,12 +165,12 @@ body {
   width: 25%; }
 
 .armaTarjeta {
+  display: flex;
+  flex-direction: row;
   margin: 15px 5px;
   border: 1px solid black;
   border-radius: 5px;
   background-color: #e0d1a8;
-  display: flex;
-  flex-direction: row;
   width: 425px; }
 
 .tarjeta {
@@ -163,9 +181,10 @@ body {
 
 .estiloarmas {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-content: flex-start;
-  flex-flow: row wrap; }
+  flex-flow: wrap; }
 
 .personajes a:hover {
   display: flex;
@@ -180,24 +199,21 @@ body {
 .elementos {
   display: flex;
   flex-direction: column; }
+  .elementos a {
+    text-decoration: none; }
 
 .elemento {
   display: flex;
   flex-direction: row;
   border-radius: 10px; }
-
-.elemento img {
-  height: 60px;
-  width: 60px;
-  align-self: center;
-  margin-left: 15px; }
-
-.elemento h3 {
-  margin-left: 25px;
-  font-size: 3em; }
-
-.hydro h3 {
-  color: #03e5fd; }
+  .elemento img {
+    height: 60px;
+    width: 60px;
+    align-self: center;
+    margin-left: 15px; }
+  .elemento h3 {
+    margin-left: 25px;
+    font-size: 3em; }
 
 .hydro {
   background-color: #05e4fd1f; }
@@ -205,44 +221,26 @@ body {
 .cryo {
   background-color: #9eeff321; }
 
-.cryo h3 {
-  color: #9eeff3; }
-
 .pyro {
   background-color: #fba36963; }
-
-.pyro h3 {
-  color: #f53838; }
 
 .anemo {
   background-color: #a7f4cd63; }
 
-.anemo h3 {
-  color: #59deb4; }
-
 .geo {
   background-color: #f6da6266; }
-
-.geo h3 {
-  color: #f6b631; }
 
 .electro {
   background-color: #dfbbfd5c; }
 
-.electro h3 {
-  color: #d798fc; }
-
-.elementos a {
-  text-decoration: none; }
-
 /* Hydro */
 .personajes {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
+  flex-flow: wrap;
   justify-content: center; }
-
-.personajes a {
-  text-decoration: none; }
+  .personajes a {
+    text-decoration: none; }
 
 .personaje {
   display: flex;
@@ -286,9 +284,8 @@ body {
 
 .personajeDetalle {
   width: 75%; }
-
-.personajeDetalle h3 {
-  text-align: center; }
+  .personajeDetalle h3 {
+    text-align: center; }
 
 .habilidades {
   display: flex;
@@ -303,18 +300,17 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-top: 15px; }
-
-.habilidadCabecera div {
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  background-color: #d798fc;
-  padding: 5px;
-  background-image: url("../Multimedia/personajes/hydro/habilidades/tartaglia_s1.png");
-  background-size: 82%;
-  background-position-x: 4px;
-  background-position-y: 6px;
-  background-repeat: no-repeat; }
+  .habilidadCabecera div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #d798fc;
+    padding: 5px;
+    background-image: url("../Multimedia/personajes/hydro/habilidades/tartaglia_s1.png");
+    background-size: 82%;
+    background-position-x: 4px;
+    background-position-y: 6px;
+    background-repeat: no-repeat; }
 
 footer {
   bottom: 0px;
@@ -375,43 +371,38 @@ footer {
     display: none;
     position: absolute;
     margin-top: 6px;
-    margin-left: 20px;
-    /* 
-        .mainGrid {
-            display: flex;
-            flex-direction: column;
-        } */ }
+    margin-left: 20px; }
     .submenu li {
       display: block; }
       .submenu lihover ul {
         display: block; }
-    .submenu .contenedorArmas {
-      display: flex;
-      flex-direction: column;
-      justify-content: left; }
-      .submenu .contenedorArmas img {
-        align-self: center; }
-    .submenu .intro {
-      display: flex;
-      flex-direction: column;
-      align-items: center; }
-    .submenu .table {
-      background-color: aliceblue;
-      margin: auto;
-      font-size: 12px; }
-    .submenu .personajeDescripcion {
-      display: flex;
-      flex-direction: column; }
-    .submenu .fullImgPj {
-      display: flex;
-      flex-direction: row;
-      width: 90%;
-      padding: 10px;
-      border-radius: 15px; }
-      .submenu .fullImgPj img {
-        width: 50%; }
-    .submenu .personajeDetalle {
-      width: 100%; } }
+  .contenedorArmas {
+    display: flex;
+    flex-direction: column;
+    justify-content: left; }
+    .contenedorArmas img {
+      align-self: center; }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .table {
+    background-color: aliceblue;
+    margin: auto;
+    font-size: 12px; }
+  .personajeDescripcion {
+    display: flex;
+    flex-direction: column; }
+  .fullImgPj {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px; }
+    .fullImgPj img {
+      width: 50%; }
+  .personajeDetalle {
+    width: 100%; } }
 
 @media only screen and (max-width: 576px) {
   .submenu {
@@ -474,7 +465,9 @@ footer {
   .contenedorArmas {
     display: flex;
     flex-direction: column;
-    justify-content: left; }
+    justify-content: center; }
+    .contenedorArmas img {
+      align-self: center; }
   .armaTarjeta {
     margin: 15px 5px;
     border: 1px solid black;

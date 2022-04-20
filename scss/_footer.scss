@@ -29,7 +29,6 @@ footer {
 }
 
 .redes {
-    display: flex;
-    flex-direction: row;
+    @include flexBox(flex,row);
     justify-content: center;
 }
