@@ -101,7 +101,8 @@ header {
   min-height: 100%;
   padding: 20px;
   background-color: #ffffff;
-  border-radius: 4px; }
+  border-radius: 4px;
+  margin: 0% 4%; }
   #contenedor p {
     padding: 30px;
     line-height: 25px; }
@@ -294,23 +295,12 @@ body {
 .habilidad {
   display: flex;
   flex-direction: column; }
-
-.habilidadCabecera {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 15px; }
-  .habilidadCabecera div {
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #d798fc;
-    padding: 5px;
-    background-image: url("../Multimedia/personajes/hydro/habilidades/tartaglia_s1.png");
-    background-size: 82%;
-    background-position-x: 4px;
-    background-position-y: 6px;
-    background-repeat: no-repeat; }
+  .habilidad details summary {
+    list-style: none; }
+  .habilidad details li {
+    margin-left: 10%; }
+  .habilidad details p {
+    margin: -2% 0%; }
 
 footer {
   bottom: 0px;

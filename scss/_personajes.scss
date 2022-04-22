@@ -11,9 +11,10 @@
 /*personajes*/
 .elementos {
     @include flexBox(flex, column);
+
     a {
-    text-decoration: none;
-}
+        text-decoration: none;
+    }
 }
 
 .elemento {
@@ -54,7 +55,7 @@
 
 .geo {
     background-color: #f6da6266;
-} 
+}
 
 .electro {
     background-color: #dfbbfd5c;
@@ -67,9 +68,10 @@
     @include flexBox(flex, row);
     flex-flow: wrap;
     justify-content: center;
+
     a {
-    text-decoration: none;
-}
+        text-decoration: none;
+    }
 }
 
 .personaje {
@@ -119,9 +121,10 @@
 
 .personajeDetalle {
     width: 75%;
+
     h3 {
-    text-align: center;
-}
+        text-align: center;
+    }
 }
 
 .habilidades {
@@ -130,22 +133,16 @@
 
 .habilidad {
     @include flexBox(flex, column);
-}
 
-.habilidadCabecera {
-    @include flexBox(flex, row);
-    justify-content: center;
-    margin-top: 15px;
-    div {
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background-color: #d798fc;
-    padding: 5px;
-    background-image: url('../Multimedia/personajes/hydro/habilidades/tartaglia_s1.png');
-    background-size: 82%;
-    background-position-x: 4px;
-    background-position-y: 6px;
-    background-repeat: no-repeat;
-}
+    details {
+        summary {
+            list-style: none;
+        }
+        li {
+            margin-left: 10%;
+        }
+        p {
+            margin: -2% 0%
+        }
+    }
 }
